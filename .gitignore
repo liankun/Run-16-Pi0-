@@ -1,0 +1,20 @@
+<<<<<<< HEAD
+#remove all files
+#*
+#presver wanted files
+*
+!*.C
+!*.h
+!Makefile.am
+!README.md
+!UpLoadCVS.sh
+!autogen.sh
+!configure.in
+!setup.csh
+!.gitignore
+!*/
+!*/*/
+#!macro/*
+#!macro/*/
+#!backup/
+

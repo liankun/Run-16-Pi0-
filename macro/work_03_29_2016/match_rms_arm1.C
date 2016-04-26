@@ -1,0 +1,113 @@
+{
+//=========Macro generated from canvas: c1/c1
+//=========  (Wed Mar 30 03:23:54 2016) by ROOT version5.30/03
+/*   TCanvas *c1 = new TCanvas("c1", "c1",12,61,700,500);
+   c1->Range(-0.0025,-1364.081,0.0225,12276.73);
+   c1->SetFillColor(0);
+   c1->SetBorderMode(0);
+   c1->SetBorderSize(2);
+   c1->SetFrameBorderMode(0);
+   c1->SetFrameBorderMode(0);
+*/ 
+
+   TH1D *hnomatch_rms_arm0_py = new TH1D("hnomatch_rms_arm0_py","NoMatch rms Arm 0",200,0,0.02);
+   hnomatch_rms_arm0_py->SetBinContent(1,87);
+   hnomatch_rms_arm0_py->SetBinContent(2,373);
+   hnomatch_rms_arm0_py->SetBinContent(3,609);
+   hnomatch_rms_arm0_py->SetBinContent(4,971);
+   hnomatch_rms_arm0_py->SetBinContent(5,2219);
+   hnomatch_rms_arm0_py->SetBinContent(6,1143);
+   hnomatch_rms_arm0_py->SetBinContent(7,936);
+   hnomatch_rms_arm0_py->SetBinContent(8,1054);
+   hnomatch_rms_arm0_py->SetBinContent(9,886);
+   hnomatch_rms_arm0_py->SetBinContent(10,1068);
+   hnomatch_rms_arm0_py->SetBinContent(11,1048);
+   hnomatch_rms_arm0_py->SetBinContent(12,1257);
+   hnomatch_rms_arm0_py->SetBinContent(13,1503);
+   hnomatch_rms_arm0_py->SetBinContent(14,1510);
+   hnomatch_rms_arm0_py->SetBinContent(15,1940);
+   hnomatch_rms_arm0_py->SetBinContent(16,2158);
+   hnomatch_rms_arm0_py->SetBinContent(17,2901);
+   hnomatch_rms_arm0_py->SetBinContent(18,3970);
+   hnomatch_rms_arm0_py->SetBinContent(19,4228);
+   hnomatch_rms_arm0_py->SetBinContent(20,6078);
+   hnomatch_rms_arm0_py->SetBinContent(21,6718);
+   hnomatch_rms_arm0_py->SetBinContent(22,7942);
+   hnomatch_rms_arm0_py->SetBinContent(23,8492);
+   hnomatch_rms_arm0_py->SetBinContent(24,9426);
+   hnomatch_rms_arm0_py->SetBinContent(25,10208);
+   hnomatch_rms_arm0_py->SetBinContent(26,10393);
+   hnomatch_rms_arm0_py->SetBinContent(27,10269);
+   hnomatch_rms_arm0_py->SetBinContent(28,10105);
+   hnomatch_rms_arm0_py->SetBinContent(29,9758);
+   hnomatch_rms_arm0_py->SetBinContent(30,8998);
+   hnomatch_rms_arm0_py->SetBinContent(31,8859);
+   hnomatch_rms_arm0_py->SetBinContent(32,7503);
+   hnomatch_rms_arm0_py->SetBinContent(33,6554);
+   hnomatch_rms_arm0_py->SetBinContent(34,5685);
+   hnomatch_rms_arm0_py->SetBinContent(35,4087);
+   hnomatch_rms_arm0_py->SetBinContent(36,3605);
+   hnomatch_rms_arm0_py->SetBinContent(37,2516);
+   hnomatch_rms_arm0_py->SetBinContent(38,1891);
+   hnomatch_rms_arm0_py->SetBinContent(39,1570);
+   hnomatch_rms_arm0_py->SetBinContent(40,809);
+   hnomatch_rms_arm0_py->SetBinContent(41,628);
+   hnomatch_rms_arm0_py->SetBinContent(42,451);
+   hnomatch_rms_arm0_py->SetBinContent(43,346);
+   hnomatch_rms_arm0_py->SetBinContent(44,237);
+   hnomatch_rms_arm0_py->SetBinContent(45,120);
+   hnomatch_rms_arm0_py->SetBinContent(46,50);
+   hnomatch_rms_arm0_py->SetBinContent(47,134);
+   hnomatch_rms_arm0_py->SetBinContent(48,53);
+   hnomatch_rms_arm0_py->SetBinContent(49,3);
+   hnomatch_rms_arm0_py->SetBinContent(51,18);
+   hnomatch_rms_arm0_py->SetBinContent(52,14);
+   hnomatch_rms_arm0_py->SetEntries(173381);
+   
+   TPaveStats *ptstats = new TPaveStats(0.78,0.775,0.98,0.935,"brNDC");
+   ptstats->SetName("stats");
+   ptstats->SetBorderSize(1);
+   ptstats->SetFillColor(0);
+   ptstats->SetTextAlign(12);
+   ptstats->SetTextFont(42);
+   TText *text = ptstats->AddText("hnomatch_rms_arm0_py");
+   text->SetTextSize(0.0368);
+   text = ptstats->AddText("Entries = 173381 ");
+   text = ptstats->AddText("Mean  = 0.002506");
+   text = ptstats->AddText("RMS   = 0.0007654");
+   ptstats->SetOptStat(1111);
+   ptstats->SetOptFit(0);
+   ptstats->Draw();
+   hnomatch_rms_arm0_py->GetListOfFunctions()->Add(ptstats);
+   ptstats->SetParent(hnomatch_rms_arm0_py->GetListOfFunctions());
+
+   Int_t ci;   // for color index setting
+   ci = TColor::GetColor("#000099");
+   hnomatch_rms_arm0_py->SetLineColor(ci);
+   hnomatch_rms_arm0_py->GetXaxis()->SetTitle("Match RMS");
+   hnomatch_rms_arm0_py->GetXaxis()->SetLabelFont(42);
+   hnomatch_rms_arm0_py->GetXaxis()->SetLabelSize(0.035);
+   hnomatch_rms_arm0_py->GetXaxis()->SetTitleSize(0.035);
+   hnomatch_rms_arm0_py->GetXaxis()->SetTitleFont(42);
+   hnomatch_rms_arm0_py->GetYaxis()->SetLabelFont(42);
+   hnomatch_rms_arm0_py->GetYaxis()->SetLabelSize(0.035);
+   hnomatch_rms_arm0_py->GetYaxis()->SetTitleSize(0.035);
+   hnomatch_rms_arm0_py->GetYaxis()->SetTitleFont(42);
+   hnomatch_rms_arm0_py->GetZaxis()->SetLabelFont(42);
+   hnomatch_rms_arm0_py->GetZaxis()->SetLabelSize(0.035);
+   hnomatch_rms_arm0_py->GetZaxis()->SetTitleSize(0.035);
+   hnomatch_rms_arm0_py->GetZaxis()->SetTitleFont(42);
+   hnomatch_rms_arm0_py->SetLineColor(kRed);
+   hnomatch_rms_arm0_py->DrawNormalized("same");
+   
+   TPaveText *pt = new TPaveText(0.3283621,0.94,0.6716379,0.995,"blNDC");
+   pt->SetName("title");
+   pt->SetBorderSize(0);
+   pt->SetFillColor(0);
+   pt->SetTextFont(42);
+   text = pt->AddText("NoMatch rms Arm 0");
+   pt->Draw();
+   c1->Modified();
+   c1->cd();
+   c1->SetSelected(c1);
+}
